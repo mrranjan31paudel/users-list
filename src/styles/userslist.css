@@ -1,0 +1,36 @@
+.users-list {
+    width: 95%;
+    position: absolute;
+    z-index: 5;
+    top: 10vmin;
+    margin: 0 auto;
+    list-style-type: none;
+}
+    .users-list li {
+        display: flex;
+        background: white;
+        border-radius: 8px;
+        margin: 5px 0;
+        border-bottom: 1px solid rgb(156, 156, 156);
+    }
+
+    .users-list li:hover {
+        cursor: pointer;
+    }
+        .users-list li img {
+            height: 50px;
+            margin: 5px;
+            border-radius: 25px;
+        }
+        .users-list li:hover img {
+            box-shadow: 0 0 10px rgb(5, 76, 209);
+        }
+
+        .users-list li p {
+            margin: auto 5px;
+            font-weight: 500;
+        }
+
+        .users-list li:hover p {
+            color: rgb(29, 108, 255);
+        }
